@@ -58,4 +58,8 @@ class Owner
       pet.owner = nil 
     end
   end 
+  
+  def list_pets
+    self.all
+  end 
 end
